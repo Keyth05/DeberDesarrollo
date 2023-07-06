@@ -1,0 +1,11 @@
+### GET request with a header
+GET http://127.0.0.1:9049
+Accept: application/json
+
+### Send POST request with json body
+POST http://127.0.0.1:9049/inference
+Content-Type: application/json
+
+{
+  "prompt": 5
+}
